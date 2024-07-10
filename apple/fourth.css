@@ -1,0 +1,854 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: rgb(245, 242, 242);
+}
+.header{
+    /* border: 2px solid rgb(210, 13, 13); */
+    color: rgb(25, 25, 26);
+    background-color: rgb(237, 239, 239);
+    text-align: center;
+    padding: 10px;  
+}
+span{
+    margin: 8px;
+}
+.headerimg{
+width: 23px;
+position: relative;
+top: 6px;
+}
+.firstdiv{
+
+    margin: 15px 160px 0px 160px;
+    /* border: 2px solid rgb(6, 182, 18); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+.firstdivimg{
+    width: 45px;
+    height: 50px;
+}
+.firstdivimg1{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.firstdivimgtext1{
+    font-size: 12px;
+    line-height: 0.3;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.firstdivimgtext2{
+font-size: 10px;
+    line-height: 0.2;
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(183, 57, 43);
+}
+.seconddiv{
+    max-width:100%;
+    /* border: 2px solid red; */
+    background-color: rgba(243, 235, 235, 0.875);
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    /* position: relative; */
+}
+.seconddivtext{
+    margin-left: 310px;
+    /* position: absolute; */
+}
+.thirddiv{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 100px 100px 0px 100px;
+}
+.thirddivleft{
+    width: 50%;
+     /* border: 2px solid rgb(7, 218, 32); */
+     font-size: 64px;
+     line-height: 1.0625;
+     font-weight: 600;
+     letter-spacing: -0.009em;
+     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+ .thirddivright{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     line-height: 2px;
+     /* border: 2px solid rgb(40, 14, 191); */
+     text-align: end;
+     font-size: 24px;
+     line-height: 0.6;
+     font-weight: 600;
+     letter-spacing: .009em;
+     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+     padding-top: 5px;
+ }
+ .fourdiv{
+    max-width: 100%;
+    /* border: 2px solid rgb(65, 19, 203); */
+     margin: 100px 80px 100px 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+}
+video{
+    width: 90vw; 
+     height: 90vh;
+    object-fit: fill;
+    overflow: hidden;
+}
+.fivediv{
+    /* border: 2px solid rgb(40, 14, 191); */
+    margin-left: 100px;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdiv{
+    max-width: 100vw;
+     /* border: 2px solid rgb(40, 14, 191);  */
+    margin: 100px 0px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(7,425px);
+    overflow: auto;
+}
+.sixdivimg{
+ border-radius: 15px;
+}
+.sixdiv1text1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 87%;
+    left: 5%;
+    line-height: 4px;
+}
+.sixdivtext1span{
+    color: white;
+    font-size: 24px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdivtext2span{
+    color: white;
+    font-size: 28px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdivtext1spanb{
+    color: rgb(2, 2, 2);
+    font-size: 24px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdivtext2spanb{
+    color: rgb(8, 7, 7);
+    font-size: 28px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdiv2text1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 87%;
+    left: 5%;
+    line-height: 4px;
+}
+.sixdivtext1span3{
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixdivtext2span3{
+    color: rgb(8, 7, 7);
+    font-size: 26px;
+    line-height: 0.6;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sevendivbtns{
+    height: 50px;
+    width: 157px;
+    border-bottom: 1px solid rgb(177, 176, 193);
+}
+.sevendiv{
+    /* border: 2px solid rgb(25, 11, 231); */
+    margin-top: 40px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    overflow: auto;
+}
+.sevendivone{
+    width:85%;
+    /* border: 2px solid rgb(11, 196, 63); */
+    display: grid;
+    grid-template-rows: repeat(17);
+    line-height: 28px;
+}
+.sevendivtwo{
+    /* border: 2px solid rgb(33, 226, 12); */
+    display: grid;
+    grid-template-rows: repeat(17);
+    line-height: 28px;
+    left: 41%;
+}
+.sevendivbtn{
+border: 0px solid;
+     background-color: rgb(6, 104, 165);
+    border-radius: 13px;
+    color: azure;
+    font-size: 13px;
+    padding: 8px; 
+    margin-right: 19px;
+}
+.sevendivbtn2{
+    border: 0px solid;
+     background-color: rgb(6, 104, 165);
+    border-radius: 13px;
+    color: azure;
+    font-size: 13px;
+    padding: 8px; 
+}
+.eightdiv{
+    /* border: 1px solid rgb(30, 8, 231); */
+    display: flex;
+    flex-direction: row;
+margin: 50px 80px 0px 80px;
+overflow: auto;
+column-gap: 30px;
+}
+.eightdivtext1{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.eightdivtext2{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.eightdivtext3{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.ninediv{
+    display: flex;
+    margin: 80px 0px 0px 80px;
+}
+.ninedivleft{
+    width: 50%;
+    /* border: 2px solid rgb(33, 226, 12); */
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+.ninedivright{
+    width: 50%;
+    font-size: 16px;
+    /* border: 2px solid rgb(33, 226, 12); */
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.tendiv{
+    max-width: 100%;
+    height: 270px;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    overflow: auto;
+}
+.tendivs{
+    min-width: 350px;
+    height:300px;
+    /* border: 1px solid rgb(32, 222, 32); */
+    margin-right: 10px;
+    border-radius: 7px;
+  box-shadow: 2px rgb(15, 15, 15);
+}
+.tendiv1{
+    display: flex;
+    flex-direction: column;
+   justify-content: left;
+}
+.tendiv1img{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 30px;
+}
+.tendiv1black1{
+    font-size: 21px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+.tendiv1black2{
+    font-size: 21px;
+    color: black;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tendiv1black3{
+    font-size: 21px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tendiv1green1{
+    font-size: 21px;
+    color: black(10, 233, 47);
+    margin-right: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tendiv1green2{
+    font-size: 21px;
+    color: black(10, 233, 47);
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tendiv1green3{
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black(10, 233, 47);
+    margin-left: 30px;
+}
+.tendiv1green4{
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(15, 17, 16);
+    margin-left: 30px;
+}
+.tendiv1text1{
+    margin-top: 10px;
+}
+.tendiv1green3{
+    padding-right: 1px;
+    position: relative;
+    right: 30px;
+}
+.thirteendiv1img1{
+    width: 20px;
+}
+.tendiv1text5{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(15, 17, 16);
+    margin: 10px 0px 0px 30px;
+}
+.elevendiv{
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 80px 0px 0px 80px; 
+}
+.twelvediv{
+    width: 90%;
+    /* border: 1px solid rgb(189, 135, 9); */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+}
+.twelvedivleft{
+    width: 49vw;
+    /* border: 1px solid rgb(32, 222, 32); */
+    display: flex;
+    flex-direction: column;
+    line-height: 55px;
+}
+.twelvedivright{
+    width: 49vw;
+    /* border: 1px solid rgb(32, 222, 32); */
+    line-height: 35px;
+}
+#twelvedivrightimg{
+    width: 49vw;
+}
+.twelvedivone{
+    display: flex;
+    flex-direction: column;
+}
+.twelvedivlefttext{
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(187, 180, 180);
+margin-top: 2%;
+margin-left: 14%;
+  
+}
+.twelvedivonetext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 14%;
+}
+.ipadleft{
+    width: 50%;
+    /* border: 2px solid rgb(33, 226, 12); */
+    margin-left: 80px;
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+.sixteendiv{
+    /* border: 1px solid rgb(30, 8, 231); */
+    display: flex;
+    flex-direction: row;
+margin: 50px 80px 0px 80px;
+overflow: auto;
+column-gap: 30px;
+}
+.sixteendivleft,.sixteendivright{
+    /* border: 1px solid rgb(32, 222, 32); */
+   
+}
+.sixteendivimg{
+    width: 639px;
+}
+.sixteendivleftone,.sixteendivrightone{
+    /* border: 1px solid rgb(193, 9, 27);  */
+}
+.sixteendivtext1{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixteendivtext2{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sixteendivtext3{
+    width: 70%;
+    /* border: 1px solid rgb(7, 7, 176); */
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.seventeendiv{
+    margin: 50px 0px 0px 70px;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+}
+.seventeendivleft,.seventeendivmiddle,.seventeendivright{
+    display: grid;
+    grid-template-rows: auto;
+}
+.seventeendivlefttext1{
+    color: rgb(187, 171, 171);
+}
+.seventeendivlefttext2{
+    font-size: 20px;
+    font-family:Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}  
+.seventeendivlefttext3{
+    font-size: 15px;
+    font-family:Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: -0.005em;
+}  
+.eighteendiv{
+    /* border: 2px solid rgb(202, 103, 10); */
+    background-color: white(245, 245, 247);
+    margin-top: 150px;
+    
+}
+.content{
+    
+    color: rgb(192, 170, 170);
+background-color: rgb(245, 245, 247);
+font-size:small;
+font-family: 'Times New Roman', Times, serif;
+/* border: 2px solid rgb(75, 11, 226); */
+margin-left: 15%;
+margin-right: 15%;
+}
+.line{
+    border: 1px solid rgb(192, 170, 170);
+    height: 100%;
+}
+.one{
+    list-style-position: inside;
+    color: rgb(81, 67, 67);
+    width: 20%;
+    float: left;  
+}
+#one{
+    list-style-type: none; 
+}
+
+#two{
+    list-style-type: none;  
+}
+.list{
+    height: 525px;
+}
+#three{
+    list-style-type: none;  
+}
+#usa{
+    text-align: right;
+}
+.Copyright{
+    width: 60%;
+}
+.helpmechoose{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media only screen  and (max-width:900px){
+    .store{
+         display: none; 
+    }
+}
+@media only screen  and (max-width:1100px){
+    .firstdiv,.seconddivtext,.thirddiv,.sixdiv,.tendiv{
+        width: 80vw;
+        margin: 15px 160px 0px 50px;
+    }
+}
+@media only screen  and (max-width:1100px){
+    .firstdivimgtext2,.firstdivimgtext1{
+        font-size: 8px;
+        width: 50px;
+    }
+}
+@media only screen  and (max-width:904px){
+    .seconddivtext{
+        font-size: 15px;
+    }
+}
+@media only screen  and (max-width:617px){
+    .thirddivright{
+        font-size: 12px;
+       min-width: 42vw;
+       margin-left: 57px;
+    }
+}
+@media only screen  and (max-width:617px){
+    .thirddivleft{
+        font-size: 50px;
+    }
+}
+@media only screen  and (max-width:500px){
+    .fivediv,.helpmechoose,.tendiv{
+        width: 318px;
+        /* border: 2px solid rgb(75, 11, 226); */
+        margin: 15px 160px 0px 50px;
+       font-size: 37px;
+    }
+}
+@media only screen  and (max-width:816px){
+    #elevendivimg{
+        max-width: 400px;
+        height: 400px;
+    }
+}
+@media only screen  and (max-width:576px){
+    #elevendivimg{
+        max-width: 300px;
+        height: 300px;
+    }
+}
+@media only screen  and (max-width:406px){
+    #elevendivimg{
+        max-width: 200px;
+        height: 300px;
+    }
+}
+@media only screen  and (max-width:1100px){
+    .elevendiv{
+       display: flex;
+       flex-direction: column-reverse;
+       margin: 15px 180px 0px 0px;
+    }
+}
+@media only screen  and (max-width:1100px){
+    .elevendivtext{
+        width: 50vw;
+        /* border: 2px solid rgb(51, 6, 229); */
+        margin: 25px 0px 0px 180px;
+    }
+}
+@media only screen  and (max-width:904px){
+    .elevendivimgtext1,.elevendivimgtext2{
+        font-size: 17px;
+        line-height: 0.5;
+        font-weight: 400;
+        letter-spacing: .005em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+}
+@media only screen  and (max-width:904px){
+    #elevendivbtn{
+        width: 102px;
+    height: 28px;
+    border-radius: 25px;
+    margin-left: 135px;
+    font-size: 14px;
+    }
+}
+@media only screen  and (max-width:590px){
+    .elevendivtext{
+        width: 70vw;
+        /* border: 2px solid rgb(51, 6, 229); */
+        margin: 25px 0px 0px 50px;
+    }
+}
+@media only screen  and (max-width:490px){
+    .elevendivimgtext1,.elevendivimgtext2{
+        font-size: 17px;
+        line-height: 0.5;
+        font-weight: 400;
+        letter-spacing: .005em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+}
+@media only screen  and (max-width:490px){
+    #elevendivbtn{
+        width: 102px;
+    height: 28px;
+    border-radius: 25px;
+    margin-left: 135px;
+    font-size: 14px;
+    }
+}
+@media only screen  and (max-width:800px){
+    .elevendivimg{
+        /* width: 100vw; */
+        /* border: 2px solid rgb(166, 4, 31); */
+        margin-left: 50px;
+    }
+}
+@media only screen  and (max-width:700px){
+    .ninediv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen  and (max-width:700px){
+    .ninedivleft{
+        width: 86vw;
+        font-size: 31px;
+    line-height: 1;
+    font-weight: 400;
+  margin-left: -55px;
+    }
+}
+@media only screen  and (max-width:700px){
+    .ninedivright{
+       justify-content: start;
+    }
+}
+@media only screen  and (max-width:816px){
+    .sevendiv{
+        /* border: 2px solid rgb(25, 11, 231); */
+        margin-top: 40px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,400px);
+    }
+}
+@media only screen  and (max-width:726px){
+    .sevendiv{
+        /* border: 2px solid rgb(174, 9, 154); */
+        margin-top: 40px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,343px);
+    }
+}
+@media only screen  and (max-width:690px){
+    .sevendivone,.sevendivtwo{
+        width: 56%;
+        font-size: 10px;
+    }
+} 
+@media only screen  and (max-width:726px){
+    .sevendivoneimg{
+        width: 167px;
+    }
+}
+@media only screen  and (max-width:690px){
+    .sevendiv{
+        display: grid;
+        grid-template-columns: repeat(2,195px);
+    }
+}
+@media only screen  and (max-width:1000px){
+    .tendiv{
+       margin-left: 30px;
+    }
+}
+@media only screen  and (max-width:1000px){
+    .tendivleft,.fourteendiv{
+        width: 90%;
+       margin-left: 0px;
+       font-size: 26px;
+    }
+}
+@media only screen  and (max-width:1000px){
+    .twelvedivlefttext{
+        width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(187, 180, 180);
+margin-top: 2%;
+margin-left: 2%;
+    }
+}
+@media only screen  and (max-width:700px){
+    .twelvedivleft{
+        width: 90vw;
+    
+    }
+}
+@media only screen  and (max-width:700px){
+.twelvedivonetext{
+        font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 0px;
+    }
+}
+@media only screen  and (max-width:700px){
+    #twelvedivrightimg{
+        width: 80%;
+    }
+}
+@media only screen  and (max-width:700px){
+    #twelvedivrightimg{
+        width: 70%;
+        padding-left: 65px;
+    }
+}
+@media only screen  and (max-width:700px){
+    .twelvedivright{
+      margin-top: 53px;
+      margin-left: -302px;
+    }
+}
+@media only screen  and (max-width:400px){
+    #twelvedivrightimg{
+        width: 54%;
+        padding-left: 95px;
+    }
+}
+@media only screen  and (max-width:400px){
+    .twelvedivright{
+      margin-top: 53px;
+      margin-left: -302px;
+    }
+}
+@media only screen  and (max-width:550px){
+    .twelvedivright{
+      margin-top: 66px;
+      margin-left: -225px;
+      /* border: 2px solid red; */
+    }
+}
+@media only screen  and (max-width:750px){
+    .seventeendiv{
+      margin-left:0px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen  and (max-width:750px){
+    .sixteendiv{
+     margin-left: 30px;
+    }
+}
+@media only screen  and (max-width:750px){
+    .seventeendiv,.twelvediv,.elevendiv,.helpmechoosediv{
+     margin-left: 30px;
+    }
+}
+@media only screen  and (max-width:750px){
+    .sevendiv{
+     margin-left: 15pxpx;
+    }
+}
